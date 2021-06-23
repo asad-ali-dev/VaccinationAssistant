@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C3262D8F2682996200025A60 /* ImportedCovid19Vaccine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3262D8E2682996200025A60 /* ImportedCovid19Vaccine.swift */; };
+		C3262D91268299C900025A60 /* LocalCovid19Vaccine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3262D90268299C900025A60 /* LocalCovid19Vaccine.swift */; };
+		C3262D9326829BD000025A60 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3262D9226829BD000025A60 /* Extension.swift */; };
+		C3262D992682ACD300025A60 /* VaccinationCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3262D982682ACD300025A60 /* VaccinationCenter.swift */; };
+		C3262D9B2682AD0600025A60 /* Builder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3262D9A2682AD0600025A60 /* Builder.swift */; };
+		C3262D9D2682AE8600025A60 /* VaccinationCenterBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3262D9C2682AE8600025A60 /* VaccinationCenterBuilder.swift */; };
+		C3262D9F2682B2FC00025A60 /* Director.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3262D9E2682B2FC00025A60 /* Director.swift */; };
+		C3262DA226832A6D00025A60 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3262DA026832A6D00025A60 /* DashboardViewController.swift */; };
+		C3262DA326832A6D00025A60 /* DashboardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3262DA126832A6D00025A60 /* DashboardViewController.xib */; };
+		C3262DA626832C6D00025A60 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3262DA526832C6D00025A60 /* LocationManager.swift */; };
 		C3471F4B266B88B600E7F9F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3471F4A266B88B600E7F9F9 /* AppDelegate.swift */; };
 		C3471F4D266B88B600E7F9F9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3471F4C266B88B600E7F9F9 /* SceneDelegate.swift */; };
 		C3471F4F266B88B600E7F9F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3471F4E266B88B600E7F9F9 /* ViewController.swift */; };
@@ -15,6 +25,13 @@
 		C3471F57266B88BA00E7F9F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3471F55266B88BA00E7F9F9 /* LaunchScreen.storyboard */; };
 		C3471F62266B88BA00E7F9F9 /* VaccineAssistantTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3471F61266B88BA00E7F9F9 /* VaccineAssistantTests.swift */; };
 		C3471F6D266B88BA00E7F9F9 /* VaccineAssistantUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3471F6C266B88BA00E7F9F9 /* VaccineAssistantUITests.swift */; };
+		C3471F7C266B8C0D00E7F9F9 /* VaccineFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3471F7B266B8C0D00E7F9F9 /* VaccineFactory.swift */; };
+		C3471F7E266BB07300E7F9F9 /* Covid19Vaccine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3471F7D266BB07300E7F9F9 /* Covid19Vaccine.swift */; };
+		C3471F80266BB22C00E7F9F9 /* DengueVaccine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3471F7F266BB22C00E7F9F9 /* DengueVaccine.swift */; };
+		C3471F82266BB35C00E7F9F9 /* ImportedVaccineFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3471F81266BB35C00E7F9F9 /* ImportedVaccineFactory.swift */; };
+		C3471F84266BB3BB00E7F9F9 /* LocalVaccineFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3471F83266BB3BB00E7F9F9 /* LocalVaccineFactory.swift */; };
+		C3471F86266BB5EB00E7F9F9 /* ImportedDengueVaccine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3471F85266BB5EB00E7F9F9 /* ImportedDengueVaccine.swift */; };
+		C3471F88266BB5FE00E7F9F9 /* LocalDengueVaccine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3471F87266BB5FE00E7F9F9 /* LocalDengueVaccine.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +52,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C3262D8E2682996200025A60 /* ImportedCovid19Vaccine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImportedCovid19Vaccine.swift; sourceTree = "<group>"; };
+		C3262D90268299C900025A60 /* LocalCovid19Vaccine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalCovid19Vaccine.swift; sourceTree = "<group>"; };
+		C3262D9226829BD000025A60 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		C3262D982682ACD300025A60 /* VaccinationCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaccinationCenter.swift; sourceTree = "<group>"; };
+		C3262D9A2682AD0600025A60 /* Builder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Builder.swift; sourceTree = "<group>"; };
+		C3262D9C2682AE8600025A60 /* VaccinationCenterBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaccinationCenterBuilder.swift; sourceTree = "<group>"; };
+		C3262D9E2682B2FC00025A60 /* Director.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Director.swift; sourceTree = "<group>"; };
+		C3262DA026832A6D00025A60 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		C3262DA126832A6D00025A60 /* DashboardViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DashboardViewController.xib; sourceTree = "<group>"; };
+		C3262DA526832C6D00025A60 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		C3471F47266B88B600E7F9F9 /* VaccineAssistant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VaccineAssistant.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3471F4A266B88B600E7F9F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C3471F4C266B88B600E7F9F9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +76,13 @@
 		C3471F68266B88BA00E7F9F9 /* VaccineAssistantUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VaccineAssistantUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3471F6C266B88BA00E7F9F9 /* VaccineAssistantUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaccineAssistantUITests.swift; sourceTree = "<group>"; };
 		C3471F6E266B88BA00E7F9F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3471F7B266B8C0D00E7F9F9 /* VaccineFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaccineFactory.swift; sourceTree = "<group>"; };
+		C3471F7D266BB07300E7F9F9 /* Covid19Vaccine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Covid19Vaccine.swift; sourceTree = "<group>"; };
+		C3471F7F266BB22C00E7F9F9 /* DengueVaccine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DengueVaccine.swift; sourceTree = "<group>"; };
+		C3471F81266BB35C00E7F9F9 /* ImportedVaccineFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImportedVaccineFactory.swift; sourceTree = "<group>"; };
+		C3471F83266BB3BB00E7F9F9 /* LocalVaccineFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalVaccineFactory.swift; sourceTree = "<group>"; };
+		C3471F85266BB5EB00E7F9F9 /* ImportedDengueVaccine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImportedDengueVaccine.swift; sourceTree = "<group>"; };
+		C3471F87266BB5FE00E7F9F9 /* LocalDengueVaccine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalDengueVaccine.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +110,55 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C3262D9426829D9C00025A60 /* Factories */ = {
+			isa = PBXGroup;
+			children = (
+				C3471F7B266B8C0D00E7F9F9 /* VaccineFactory.swift */,
+				C3471F81266BB35C00E7F9F9 /* ImportedVaccineFactory.swift */,
+				C3471F83266BB3BB00E7F9F9 /* LocalVaccineFactory.swift */,
+			);
+			path = Factories;
+			sourceTree = "<group>";
+		};
+		C3262D952682A09F00025A60 /* ConcreteClasses */ = {
+			isa = PBXGroup;
+			children = (
+				C3471F85266BB5EB00E7F9F9 /* ImportedDengueVaccine.swift */,
+				C3471F87266BB5FE00E7F9F9 /* LocalDengueVaccine.swift */,
+				C3262D8E2682996200025A60 /* ImportedCovid19Vaccine.swift */,
+				C3262D90268299C900025A60 /* LocalCovid19Vaccine.swift */,
+			);
+			path = ConcreteClasses;
+			sourceTree = "<group>";
+		};
+		C3262D962682ACA200025A60 /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				C3471F7D266BB07300E7F9F9 /* Covid19Vaccine.swift */,
+				C3471F7F266BB22C00E7F9F9 /* DengueVaccine.swift */,
+			);
+			path = Interfaces;
+			sourceTree = "<group>";
+		};
+		C3262D972682ACBB00025A60 /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				C3262D982682ACD300025A60 /* VaccinationCenter.swift */,
+				C3262D9A2682AD0600025A60 /* Builder.swift */,
+				C3262D9C2682AE8600025A60 /* VaccinationCenterBuilder.swift */,
+				C3262D9E2682B2FC00025A60 /* Director.swift */,
+			);
+			path = Builder;
+			sourceTree = "<group>";
+		};
+		C3262DA426832C4400025A60 /* Singleton */ = {
+			isa = PBXGroup;
+			children = (
+				C3262DA526832C6D00025A60 /* LocationManager.swift */,
+			);
+			path = Singleton;
+			sourceTree = "<group>";
+		};
 		C3471F3E266B88B600E7F9F9 = {
 			isa = PBXGroup;
 			children = (
@@ -99,9 +182,13 @@
 		C3471F49266B88B600E7F9F9 /* VaccineAssistant */ = {
 			isa = PBXGroup;
 			children = (
+				C3471F7A266B8BB500E7F9F9 /* DataStructures */,
 				C3471F4A266B88B600E7F9F9 /* AppDelegate.swift */,
+				C3262DA026832A6D00025A60 /* DashboardViewController.swift */,
+				C3262DA126832A6D00025A60 /* DashboardViewController.xib */,
 				C3471F4C266B88B600E7F9F9 /* SceneDelegate.swift */,
 				C3471F4E266B88B600E7F9F9 /* ViewController.swift */,
+				C3262D9226829BD000025A60 /* Extension.swift */,
 				C3471F50266B88B600E7F9F9 /* Main.storyboard */,
 				C3471F53266B88BA00E7F9F9 /* Assets.xcassets */,
 				C3471F55266B88BA00E7F9F9 /* LaunchScreen.storyboard */,
@@ -126,6 +213,18 @@
 				C3471F6E266B88BA00E7F9F9 /* Info.plist */,
 			);
 			path = VaccineAssistantUITests;
+			sourceTree = "<group>";
+		};
+		C3471F7A266B8BB500E7F9F9 /* DataStructures */ = {
+			isa = PBXGroup;
+			children = (
+				C3262D9426829D9C00025A60 /* Factories */,
+				C3262D962682ACA200025A60 /* Interfaces */,
+				C3262D952682A09F00025A60 /* ConcreteClasses */,
+				C3262D972682ACBB00025A60 /* Builder */,
+				C3262DA426832C4400025A60 /* Singleton */,
+			);
+			path = DataStructures;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +333,7 @@
 				C3471F57266B88BA00E7F9F9 /* LaunchScreen.storyboard in Resources */,
 				C3471F54266B88BA00E7F9F9 /* Assets.xcassets in Resources */,
 				C3471F52266B88B600E7F9F9 /* Main.storyboard in Resources */,
+				C3262DA326832A6D00025A60 /* DashboardViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +358,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3262D9D2682AE8600025A60 /* VaccinationCenterBuilder.swift in Sources */,
+				C3262DA226832A6D00025A60 /* DashboardViewController.swift in Sources */,
+				C3262D992682ACD300025A60 /* VaccinationCenter.swift in Sources */,
+				C3471F84266BB3BB00E7F9F9 /* LocalVaccineFactory.swift in Sources */,
+				C3471F86266BB5EB00E7F9F9 /* ImportedDengueVaccine.swift in Sources */,
+				C3471F7C266B8C0D00E7F9F9 /* VaccineFactory.swift in Sources */,
+				C3262D91268299C900025A60 /* LocalCovid19Vaccine.swift in Sources */,
 				C3471F4F266B88B600E7F9F9 /* ViewController.swift in Sources */,
+				C3262D8F2682996200025A60 /* ImportedCovid19Vaccine.swift in Sources */,
+				C3471F7E266BB07300E7F9F9 /* Covid19Vaccine.swift in Sources */,
+				C3471F82266BB35C00E7F9F9 /* ImportedVaccineFactory.swift in Sources */,
 				C3471F4B266B88B600E7F9F9 /* AppDelegate.swift in Sources */,
+				C3262D9326829BD000025A60 /* Extension.swift in Sources */,
 				C3471F4D266B88B600E7F9F9 /* SceneDelegate.swift in Sources */,
+				C3262D9F2682B2FC00025A60 /* Director.swift in Sources */,
+				C3471F80266BB22C00E7F9F9 /* DengueVaccine.swift in Sources */,
+				C3471F88266BB5FE00E7F9F9 /* LocalDengueVaccine.swift in Sources */,
+				C3262DA626832C6D00025A60 /* LocationManager.swift in Sources */,
+				C3262D9B2682AD0600025A60 /* Builder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
